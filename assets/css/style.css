@@ -22,7 +22,9 @@ body {
 header {
     background-color: darkseagreen;
 }
-
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
 /* Main Content */
 main {
     background-color: bisque;
