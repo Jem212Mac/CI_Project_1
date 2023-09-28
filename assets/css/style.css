@@ -14,18 +14,18 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: rgb(133, 22, 88);
+    color: rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: rgb(211, 248, 227);
+    background-color: rgb(0, 0, 0);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px rgb(133, 22, 88);
+    box-shadow: 0 3px 3px rgb(167, 9, 101);
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -38,8 +38,8 @@ header a {
 
 h2 {
     font-family: 'Quicksand', sans-serif;
-    text-transform:capitalize;
-    color: rgb(133, 22, 88);
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
 }
 
 #menu {
@@ -48,22 +48,22 @@ h2 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 0.5em;
 }
 
 .active {
-    border-bottom: 1px solid rgb(133, 22, 88);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /* Navbar style with dropdown menu */
 nav {
     position: absolute;
-    background-color: rgb(211, 248, 227);
+    background-color: rgb(0, 0, 0);
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 3px 3px rgb(133, 22, 88);
+    box-shadow: 0 3px 3px rgb(167, 9, 101);
     display: none;
     top: 100%;
 }
@@ -83,13 +83,19 @@ nav {
 
 /* Main Content */
 main {
-    background-color: bisque;
     /* Make main element take up surplus space */
     flex: 1 0 auto;
     margin-top: 44px;
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+}
+
 /* Footer */
 footer {
-    background-color: rgb(211, 248, 227);
+    background-color: rgb(255, 255, 255);
 }
