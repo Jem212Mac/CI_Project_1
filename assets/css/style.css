@@ -20,11 +20,13 @@ body {
 
 /* Header */
 header {
-    background-color: darkseagreen;
+    background-color: rgb(194, 247, 217);
 }
+
 h1 {
     font-family: 'Quicksand', sans-serif;
 }
+
 /* Main Content */
 main {
     background-color: bisque;
@@ -34,5 +36,5 @@ main {
 
 /* Footer */
 footer {
-    background-color: darkseagreen;
+    background-color: rgb(194, 247, 217)
 }
