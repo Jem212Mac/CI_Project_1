@@ -19,6 +19,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h2, h3, h4 {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
 /* Header */
 header {
     background-color: rgb(0, 0, 0);
@@ -35,12 +41,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h2 {
-    font-family: 'Quicksand', sans-serif;
-    text-transform: capitalize;
-    color: rgb(255, 255, 255);
 }
 
 #menu {
@@ -94,6 +94,19 @@ main {
     height: 100vh;
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(167, 9, 101, .8);
+    font-size: 100%;
+    position:absolute;
+    right: 0px;
+    bottom: 80px;
+    width: 80%;
+    min-height: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 
 /* Footer */
@@ -147,6 +160,13 @@ main {
         /* Push main content down with larger header */
         margin-top: 75px;
     }
+
+    #cover-text {
+        width: 500px;
+        right: 20px;
+        font-size: 150%;
+        bottom: 250px;
+    }
 }
 
 /* Media query: laptops and desktops, 992px and up */
@@ -154,4 +174,11 @@ main {
     #menu a:hover{
         border-bottom: 1px solid rgb(255, 255, 255);
     }
+
+    #cover-text {
+        width: 600px;
+        right: 80px;
+        font-size: 160%;
+        bottom: 130px;
+        }
 }
