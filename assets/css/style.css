@@ -96,8 +96,20 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: rgb(255, 255, 255);
+#social-networks {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 -3px 3px rgb(167, 9, 101);
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: rgb(255, 255, 255);
 }
 
 /* Media query: tablets and larger (768px and up) */
