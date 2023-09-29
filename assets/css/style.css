@@ -126,6 +126,14 @@ main {
     color: rgb(255, 255, 255);
 }
 
+/* Media query: mobile landscape, 653px and up */
+#cover-text {
+    width: 250px;
+    right: 0px;
+    font-size: 110%;
+    bottom: 70px;
+
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
