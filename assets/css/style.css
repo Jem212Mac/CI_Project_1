@@ -141,12 +141,12 @@ main {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #cover-text {
-            left: 20%;
-            bottom: 70px;
-            width: 70%;
-            min-height: 100px;
-            padding-top: 15px;
-            font-size: 120%;
+        left: 20%;
+        bottom: 70px;
+        width: 70%;
+        min-height: 100px;
+        padding-top: 15px;
+        font-size: 120%;
     }
 
     /* Gallery */
