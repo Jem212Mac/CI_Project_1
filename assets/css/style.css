@@ -102,14 +102,14 @@ main {
 
 #cover-text {
     background-color: rgba(167, 9, 101, .8);
-    font-size: 100%;
     position: absolute;
-    right: 0px;
-    bottom: 150px;
+    left: 10%;
+    bottom: 70px;
     width: 80%;
-    min-height: 150px;
-    padding-top: 40px;
-    padding-left: 10px;
+    min-height: 140px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 100%;
 }
 
 /* Gallery page */
@@ -141,10 +141,12 @@ main {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #cover-text {
-        width: 250px;
-        right: 0px;
-        font-size: 110%;
-        bottom: 70px;
+            left: 20%;
+            bottom: 70px;
+            width: 70%;
+            min-height: 100px;
+            padding-top: 15px;
+            font-size: 120%;
     }
 
     /* Gallery */
@@ -191,11 +193,14 @@ main {
     }
 
     #cover-text {
-        width: 500px;
-        right: 20px;
+        left: 20%;
+        bottom: 100px;
+        width: 60%;
+        min-height: 150px;
+        padding-top: 30px;
         font-size: 150%;
-        bottom: 250px;
     }
+
 
     /* Gallery */
     #photos {
@@ -209,10 +214,12 @@ main {
         }
 
         #cover-text {
-            width: 600px;
-            right: 80px;
-            font-size: 160%;
-            bottom: 130px;
+            left: 20%;
+            bottom: 100px;
+            width: 60%;
+            min-height: 150px;
+            padding-top: 30px;
+            font-size: 200%;
         }
 
         /* Gallery */
