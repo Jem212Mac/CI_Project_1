@@ -13,6 +13,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
     /* Generic project styles */
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -138,56 +139,68 @@ main {
     color: rgb(255, 255, 255);
 }
 
-/* Media query: mobile landscape, 653px and up */
-#cover-text {
-    width: 250px;
-    right: 0px;
-    font-size: 110%;
-    bottom: 70px;
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #cover-text {
+        width: 250px;
+        right: 0px;
+        font-size: 110%;
+        bottom: 70px;
+    }
 
+    /* Gallery */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
-    /* Media query: tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
-        /* Header */
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
-        #menu {
-            display: flex;
-        }
+    #menu {
+        display: flex;
+    }
 
-        #menu>li {
-            padding-left: 1rem;
-        }
+    #menu>li {
+        padding-left: 1rem;
+    }
 
-        .nav-toggle-label {
-            display: none;
-        }
+    .nav-toggle-label {
+        display: none;
+    }
 
-        #logo {
-            font-size: 280%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-        }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
 
-        /* Main content */
-        main {
-            /* Push main content down with larger header */
-            margin-top: 75px;
-        }
+    /* Main content */
+    main {
+        /* Push main content down with larger header */
+        margin-top: 75px;
+    }
 
-        #cover-text {
-            width: 500px;
-            right: 20px;
-            font-size: 150%;
-            bottom: 250px;
-        }
+    #cover-text {
+        width: 500px;
+        right: 20px;
+        font-size: 150%;
+        bottom: 250px;
+    }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
     }
 
     /* Media query: laptops and desktops, 992px and up */
@@ -201,6 +214,11 @@ main {
             right: 80px;
             font-size: 160%;
             bottom: 130px;
+        }
+
+        /* Gallery */
+        #photos {
+            column-count: 4;
         }
     }
 }
