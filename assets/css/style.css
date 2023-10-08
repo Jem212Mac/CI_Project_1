@@ -19,7 +19,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: 'Quicksand', sans-serif;
     text-transform: capitalize;
     color: rgb(255, 255, 255);
@@ -100,7 +102,7 @@ main {
 #cover-text {
     background-color: rgba(167, 9, 101, .8);
     font-size: 100%;
-    position:absolute;
+    position: absolute;
     right: 0px;
     bottom: 150px;
     width: 80%;
@@ -111,7 +113,12 @@ main {
 
 /* Gallery page */
 #photos img {
-    width:100%
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
@@ -139,60 +146,61 @@ main {
     bottom: 70px;
 
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+    /* Media query: tablets and larger (768px and up) */
+    @media screen and (min-width: 768px) {
+
+        /* Header */
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
+
+        #menu {
+            display: flex;
+        }
+
+        #menu>li {
+            padding-left: 1rem;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+
+        #logo {
+            font-size: 280%;
+            line-height: 75px;
+            margin: 0 0.5rem;
+        }
+
+        /* Main content */
+        main {
+            /* Push main content down with larger header */
+            margin-top: 75px;
+        }
+
+        #cover-text {
+            width: 500px;
+            right: 20px;
+            font-size: 150%;
+            bottom: 250px;
+        }
     }
 
-    #menu {
-        display: flex;
-    }
+    /* Media query: laptops and desktops, 992px and up */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid rgb(255, 255, 255);
+        }
 
-    #menu > li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down with larger header */
-        margin-top: 75px;
-    }
-
-    #cover-text {
-        width: 500px;
-        right: 20px;
-        font-size: 150%;
-        bottom: 250px;
-    }
-}
-
-/* Media query: laptops and desktops, 992px and up */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid rgb(255, 255, 255);
-    }
-
-    #cover-text {
-        width: 600px;
-        right: 80px;
-        font-size: 160%;
-        bottom: 130px;
+        #cover-text {
+            width: 600px;
+            right: 80px;
+            font-size: 160%;
+            bottom: 130px;
         }
     }
 }
