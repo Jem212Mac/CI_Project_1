@@ -102,11 +102,16 @@ main {
     font-size: 100%;
     position:absolute;
     right: 0px;
-    bottom: 80px;
+    bottom: 150px;
     width: 80%;
     min-height: 150px;
     padding-top: 40px;
     padding-left: 10px;
+}
+
+/* Gallery page */
+#photos img {
+    width:100%
 }
 
 /* Footer */
@@ -189,4 +194,5 @@ main {
         font-size: 160%;
         bottom: 130px;
         }
+    }
 }
