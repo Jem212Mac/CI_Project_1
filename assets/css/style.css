@@ -157,6 +157,7 @@ main {
 
 .radio-buttons {
     width: 100%;
+    font-size: 60%;
     display: flex;
     justify-content: space-between;
 }
