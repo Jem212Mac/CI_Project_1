@@ -37,7 +37,44 @@
         </nav>
     </header>
     <!--Main Content-->
-    <main>Main Content</main>
+    <main>
+        <section id="register">
+            <form id="registration-form" method="POST"
+            action="https://formdump.codeinstitute.net">
+            <h2><i class="fa-solid fa-martini-glass-citrus"></i>
+                Register Here!</h2>
+                <br>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="halloween">Halloween</label>
+                        <input type="radio" name="event" id="halloween" value="halloween" required checked>
+                    </div>
+                    <div>
+                        <label for="guy_fawkes">Bon Fire Night</label>
+                        <input type="radio" name="event" id="guy_fawkes" value="guy_fawkes" required checked>
+                    </div>
+                    <div>
+                        <label for="xmas">Xmas</label>
+                        <input type="radio" name="event" id="xmas" value="xmas" required checked>
+                    </div>
+                    <div>
+                        <label for="all">All of the Above</label>
+                        <input type="radio" name="event" id="all" value="all" required checked>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Register!</button>
+        </form>
+        </section>
+    </main>
     <!--Footer-->
     <footer>
         <ul id="social-networks">
