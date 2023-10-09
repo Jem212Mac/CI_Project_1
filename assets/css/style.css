@@ -22,15 +22,13 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Quicksand', sans-serif;
     text-transform: capitalize;
     color: rgb(255, 255, 255);
 }
 
-h1 {
-    font-size: 175%;
-}
 
 /* Header */
 header {
@@ -89,6 +87,10 @@ nav {
     font-size: 2rem;
 }
 
+#logo {
+    font-size: 150%;
+}
+
 /* Main Content */
 main {
     /* Make main element take up surplus space */
@@ -109,11 +111,11 @@ main {
 #cover-text {
     background-color: rgba(167, 9, 101, .8);
     position: absolute;
-    left: 10%;
-    bottom: 70px;
-    width: 80%;
-    min-height: 140px;
-    padding-top: 30px;
+    left: 5%;
+    bottom: 10px;
+    width: 90%;
+    min-height: 150px;
+    padding-top: 5px;
     text-align: center;
     font-size: 100%;
 }
@@ -256,10 +258,10 @@ hr {
 @media screen and (min-width: 576px) {
     #cover-text {
         left: 20%;
-        bottom: 70px;
+        bottom: 50px;
         width: 70%;
-        min-height: 100px;
-        padding-top: 15px;
+        min-height: 120px;
+        padding-top: 30px;
         font-size: 120%;
     }
 
@@ -336,7 +338,7 @@ hr {
         left: 20%;
         bottom: 100px;
         width: 60%;
-        min-height: 150px;
+        min-height: 160px;
         padding-top: 30px;
         font-size: 150%;
     }
