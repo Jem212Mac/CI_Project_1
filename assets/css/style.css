@@ -338,6 +338,15 @@ hr {
     }
 
 
+#halloween-image, #xmas-image {
+    justify-content: left;
+}
+
+        #guyfawkes-image {
+            justify-content: right;
+        }
+
+
     /* Gallery */
     #photos {
         column-count: 3;
