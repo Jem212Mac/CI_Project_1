@@ -1,96 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Meta tags for search engines-->
-    <meta name="description" content="Kingdom Cocktails.  Annual festival for cocktail lovers in the Kingdom of Fife">
-    <meta name="keywords"
-        content="kingdom cocktails, cocktails, festival, alcohol, party nights, cocktail making classes, bars, clubs, social">
+    <meta
+      name="description"
+      content="Kingdom Cocktails.  Annual festival for cocktail lovers in the Kingdom of Fife"
+    />
+    <meta
+      name="keywords"
+      content="kingdom cocktails, cocktails, festival, alcohol, party nights, cocktail making classes, bars, clubs, social"
+    />
     <!--Title-->
     <title>Kingdom Cocktails</title>
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="assets/favicon/site.webmanifest" />
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!--Header-->
     <header>
-        <a href="index.html">
-            <h2 id="logo">Kingdom Cocktails</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="register.html" class="active">Register</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Kingdom Cocktails</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="register.html" class="active">Register</a></li>
+        </ul>
+      </nav>
     </header>
     <!--Main Content-->
     <main>
-        <section id="register">
-            <form id="registration-form" method="POST"
-            action="https://formdump.codeinstitute.net">
-            <h2><i class="fa-solid fa-martini-glass-citrus"></i>
-                Register Your Interest!</h2>
-                <br>
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_address">Email Address</label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
-                <br>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="halloween">Halloween </label>
-                        <input type="radio" name="event" id="halloween" value="halloween" required checked>
-                    </div>
-                    <div>
-                        <label for="guy_fawkes">Guy Fawkes</label>
-                        <input type="radio" name="event" id="guy_fawkes" value="guy_fawkes" required checked>
-                    </div>
-                    <div>
-                        <label for="xmas">Xmas</label>
-                        <input type="radio" name="event" id="xmas" value="xmas" required checked>
-                    </div>
-                </div>
-                <button type="submit" class="join-button">Submit</button>
+      <section id="register">
+        <form
+          id="registration-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2>
+            <i class="fa-solid fa-martini-glass-citrus"></i>
+            Register Your Interest!
+          </h2>
+          <br />
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            required
+          />
+          <br />
+          <div class="radio-buttons">
+            <div>
+              <label for="halloween">Halloween </label>
+              <input
+                type="radio"
+                name="event"
+                id="halloween"
+                value="halloween"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="guy_fawkes">Guy Fawkes</label>
+              <input
+                type="radio"
+                name="event"
+                id="guy_fawkes"
+                value="guy_fawkes"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="xmas">Xmas</label>
+              <input
+                type="radio"
+                name="event"
+                id="xmas"
+                value="xmas"
+                required
+                checked
+              />
+            </div>
+          </div>
+          <button type="submit" class="join-button">Submit</button>
         </form>
-        </section>
+      </section>
     </main>
     <!--Footer-->
     <footer>
-        <ul id="social-networks">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our youtube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a></li>
-        </ul>
+      <ul id="social-networks">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our twitter page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our youtube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
-
     <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/d754c828bf.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/d754c828bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
