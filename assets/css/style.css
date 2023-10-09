@@ -20,12 +20,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1,
 h2,
-h3,
-h4 {
+h3 {
     font-family: 'Quicksand', sans-serif;
     text-transform: capitalize;
     color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 175%;
 }
 
 /* Header */
@@ -125,12 +129,12 @@ main {
     font-size: 280%;
 }
 
-#events>div {
+#event-dates>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#events p {
+#event-dates p {
     padding: 0 20px;
 }
 
@@ -139,14 +143,14 @@ hr {
     margin: 5px 0;
 }
 
-#circle-cauldron-bg{
+#circle-cauldron-bg {
     background: url('../images/cauldron.webp') no-repeat top center / cover;
-        height: 90vw;
-        width: 90vw;
-        margin-bottom: 20px;
-        border-radius: 50%;
-        max-width: 300px;
-        max-height: 300px;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #circle-fireworks-bg {
@@ -155,8 +159,8 @@ hr {
     width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #circle-candycane-bg {
@@ -165,14 +169,14 @@ hr {
     width: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
-#halloween-image, #guyfawkes-image, #xmas-image {
+#event-images {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 /* Gallery page */
@@ -337,14 +341,6 @@ hr {
         font-size: 150%;
     }
 
-
-#halloween-image, #xmas-image {
-    justify-content: left;
-}
-
-        #guyfawkes-image {
-            justify-content: right;
-        }
 
 
     /* Gallery */
