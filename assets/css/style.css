@@ -255,12 +255,12 @@ hr {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #cover-text {
-        left: 20%;
-        bottom: 50px;
-        width: 70%;
-        min-height: 120px;
-        padding-top: 30px;
-        font-size: 120%;
+        left: 65%;
+            bottom: 60px;
+            width: 30%;
+            min-height: 160px;
+            padding-top: 5px;
+            font-size: 80%;
     }
 
     /* Gallery */
@@ -332,12 +332,12 @@ hr {
     }
 
     #cover-text {
-        left: 20%;
-        bottom: 100px;
-        width: 60%;
-        min-height: 160px;
-        padding-top: 30px;
-        font-size: 150%;
+        left: 5%;
+        bottom: 10px;
+        width: 90%;
+        min-height: 150px;
+        padding-top: 5px;
+        font-size: 120%;
     }
 
     /* Gallery */
@@ -352,12 +352,12 @@ hr {
         }
 
         #cover-text {
-            left: 20%;
-            bottom: 100px;
-            width: 60%;
+            left: 5%;
+            bottom: 10px;
+            width: 90%;
             min-height: 150px;
-            padding-top: 30px;
-            font-size: 200%;
+            padding-top: 5px;
+            font-size: 150%;
         }
 
         /* Gallery */
@@ -366,7 +366,28 @@ hr {
         }
     }
 
-    /* Media query: widescreen, 2560px and up */
+    /* Media query: 1440px and up */
+    @media screen and (min-width: 1440px) {
+    
+        #cover-text {
+            left: 5%;
+            bottom: 10px;
+            width: 90%;
+            min-height: 80px;
+            padding-top: 5px;
+            font-size: 120%;
+        }
+
+    /* Media query: 2560px and up */
+    
+    #cover-text {
+        left: 65%;
+        bottom: 30px;
+        width: 30%;
+        min-height: 160px;
+        padding-top: 5px;
+        font-size: 200%;
+    }
     /* Registration */
     #registration-form {
         max-width: 800px;
