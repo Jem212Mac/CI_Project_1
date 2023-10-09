@@ -114,6 +114,31 @@ main {
     font-size: 100%;
 }
 
+#events {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#events h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#events>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#events p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /* Gallery page */
 #photos img {
     width: 100%;
