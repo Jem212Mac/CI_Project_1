@@ -191,22 +191,25 @@ hr {
 
 /* Registration page */
 #register {
-    background-image: url("../images/register.webp");
-    background-size: cover;
-    background-position: 75%;
-    padding: 30px 10% 30px 10%;
-    flex-grow: 1;
+    height: 100vh;
+    width: 100%;
+    background: url("../images/register.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 #registration-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
-    padding: 30px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    padding: 20px;
+    width: 80%;
 }
 
 #registration-form > h2 {
     color: #fafafa;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .text-input {
@@ -214,7 +217,7 @@ hr {
     color: #fafafa;
     width: 100%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 5px 5px 5px 5px;
     border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
@@ -230,7 +233,7 @@ hr {
 .join-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 10px 27px;
     font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
@@ -276,10 +279,12 @@ hr {
     }
 
     #registration-form {
-        max-width: 400px;
+        max-width: 1200px;
+        max-height: 700px;
         position: absolute;
         left: 10%;
-        top: 150px;
+        top: 5px;
+        font-size: 30%;
     }
 
     .text-input:hover {
@@ -395,5 +400,6 @@ hr {
         position: absolute;
         left: 5%;
         top: 150px;
+        
     }
 }
