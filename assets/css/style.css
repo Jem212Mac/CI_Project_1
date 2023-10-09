@@ -272,12 +272,6 @@ hr {
         column-gap: 0;
     }
 
-    /* Registration */
-    #register {
-        background-position: center;
-        position: relative;
-    }
-
     #registration-form {
         max-width: 1200px;
         max-height: 700px;
