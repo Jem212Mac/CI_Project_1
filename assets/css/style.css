@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
     /* Generic project styles */
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -28,7 +27,6 @@ h4 {
     text-transform: capitalize;
     color: rgb(255, 255, 255);
 }
-
 
 /* Header */
 header {
@@ -54,7 +52,7 @@ header a {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 0.5em;
 }
 
@@ -131,7 +129,7 @@ main {
     font-size: 280%;
 }
 
-#event-dates>div {
+#event-dates > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -146,7 +144,7 @@ hr {
 }
 
 #circle-cauldron-bg {
-    background: url('../images/cauldron.webp') no-repeat top center / cover;
+    background: url("../images/cauldron.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -156,7 +154,7 @@ hr {
 }
 
 #circle-fireworks-bg {
-    background: url('../images/fireworks.webp') no-repeat top center / cover;
+    background: url("../images/fireworks.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -166,7 +164,7 @@ hr {
 }
 
 #circle-candycane-bg {
-    background: url('../images/candy-cane.webp') no-repeat top center / cover;
+    background: url("../images/candy-cane.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -206,7 +204,7 @@ hr {
     padding: 30px;
 }
 
-#registration-form>h2 {
+#registration-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -300,7 +298,6 @@ hr {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -343,13 +340,10 @@ hr {
         font-size: 150%;
     }
 
-
-
     /* Gallery */
     #photos {
         column-count: 3;
     }
-
 
     /* Media query: laptops and desktops, 992px and up */
     @media screen and (min-width: 992px) {
@@ -373,7 +367,6 @@ hr {
     }
 
     /* Media query: widescreen, 2560px and up */
-
     /* Registration */
     #registration-form {
         max-width: 800px;
