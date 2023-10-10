@@ -179,6 +179,12 @@ hr {
     justify-content: space-evenly;
 }
 
+#find-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Gallery page */
 #photos img {
     width: 100%;
@@ -396,4 +402,5 @@ hr {
         top: 150px;
         
     }
+}
 }
