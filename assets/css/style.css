@@ -206,10 +206,11 @@ hr {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     position: absolute;
-    left: 10px;
-    top: 20px;
+    left: 10%;
+    top: 10%;
     padding: 20px;
     width: 80%;
+    height: 80%;
 }
 
 #registration-form > h2 {
@@ -220,7 +221,7 @@ hr {
 .text-input {
     background: transparent;
     color: #fafafa;
-    width: 100%;
+    width: 95%;
     height: 25px;
     margin: 5px 5px 5px 5px;
     border: 1px solid #fafafa;
@@ -264,11 +265,11 @@ hr {
 @media screen and (min-width: 576px) {
     #cover-text {
         left: 65%;
-            bottom: 60px;
-            width: 30%;
-            min-height: 160px;
-            padding-top: 5px;
-            font-size: 80%;
+        bottom: 60px;
+        width: 30%;
+        min-height: 160px;
+        padding-top: 5px;
+        font-size: 80%;
     }
 
     /* Gallery */
@@ -277,20 +278,22 @@ hr {
         column-gap: 0;
     }
 
+    /* Register */
     #registration-form {
-        max-width: 1200px;
-        max-height: 700px;
         position: absolute;
         left: 10%;
-        top: 5px;
-        font-size: 30%;
+        top: 3%;
+        padding: 5px;
+        width: 40%;
+        height: 94%;
+        font-size: 40%
     }
 
     .text-input:hover {
         border-color: #f16c6b;
     }
 
-    .radio-buttons {
+    .check-boxes {
         font-size: 100%;
     }
 
@@ -349,6 +352,17 @@ hr {
         column-count: 3;
     }
 
+    /* Register */
+    #registration-form {
+        position: absolute;
+        left: 5%;
+        top: 5%;
+        padding: 5px;
+        width: 40%;
+        height: 60%;
+        font-size: 80%
+    }
+
     /* Media query: laptops and desktops, 992px and up */
     @media screen and (min-width: 992px) {
         #menu a:hover {
@@ -391,15 +405,6 @@ hr {
         min-height: 160px;
         padding-top: 5px;
         font-size: 200%;
-    }
-    /* Registration */
-    #registration-form {
-        max-width: 800px;
-        font-size: 150%;
-        position: absolute;
-        left: 5%;
-        top: 150px;
-        
     }
 }
 }
