@@ -65,7 +65,7 @@ I found and resolved a number of bugs during the development process (details ca
 <img width="376" alt="Screenshot 2023-10-11 161627" src="https://github.com/Jem212Mac/CI_Project_1_Kingdom_Cocktails/assets/89839563/73d9d5c2-da0c-4301-b32a-7d556fc7ff6e">
 
 ## Deployment
-The site was deployed to GitHub pages.  The live link can be found here: https://jem212mac.github.io/CI_Project_1_Kingdom_Cocktails/
+The site was deployed to GitHub pages.  The live link can be found here: [https://jem212mac.github.io/kingdom-cocktails/]
 
 ## Credits
 
